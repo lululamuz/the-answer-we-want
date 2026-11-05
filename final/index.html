@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Answer People Wanted</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="corner" href="../">The Answer People Wanted</a>
+
+  <main>
+
+    <!-- STAGE 1: THE QUESTION -->
+    <section id="stage-question" class="stage show">
+      <p class="label">01 — The Question</p>
+      <h1>What do you wish to know?</h1>
+      <textarea id="question" rows="2" placeholder="Type your question here"></textarea>
+      <p id="error" class="hint"></p>
+      <button onclick="submitQuestion()">Submit</button>
+    </section>
+
+    <!-- STAGE 2 + 3: CLEAR THE REFLECTION / THE ANSWER -->
+    <section id="stage-answer" class="stage">
+      <p id="answer-label" class="label">02 — The Reflection</p>
+      <h2 id="answer-prompt">An answer is here. Are you ready to see it?</h2>
+
+      <!-- the answer starts blurred; press and hold it to clear the blur -->
+      <div id="answer-area">
+        <p id="answer" class="answer"></p>
+        <!-- a faint mirrored copy of the answer, like a reflection -->
+        <p id="mirror" class="answer mirror" aria-hidden="true"></p>
+      </div>
+
+      <p id="answer-hint" class="hint">Press and hold the answer</p>
+      <button id="reveal-button" class="quiet" onclick="startHolding()">Reveal answer</button>
+    </section>
+
+    <!-- STAGE 4: THE REAL REFLECTION -->
+    <section id="stage-reflection" class="stage">
+      <p class="label">04 — The Real Reflection</p>
+      <h2>Was this the answer you hoped for?</h2>
+      <div class="choices">
+        <button onclick="reflect('yes')">Yes</button>
+        <button onclick="reflect('no')">No</button>
+        <button onclick="reflect('unsure')">I'm not sure</button>
+      </div>
+
+      <div id="ending" class="stage">
+        <p id="reflection-text" class="reflection-text"></p>
+        <p class="closing">The answer became clearer. Did it become more certain?</p>
+        <button class="quiet" onclick="beginAgain()">Ask again</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+/* The Answer People Wanted - final version
+   Monochrome, lots of empty space, soft blur. */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #111111;
+  color: #e9e6df;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 18vh 24px 80px;
+  text-align: center;
+}
+
+/* small link back to the overview page */
+.corner {
+  position: fixed;
+  top: 20px;
+  left: 24px;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #6f6c66;
+  text-decoration: none;
+}
+.corner:hover { color: #e9e6df; }
+
+/* ---------- stages ---------- */
+
+/* every stage is hidden until it gets the class "show" */
+.stage {
+  display: none;
+}
+.stage.show {
+  display: block;
+  animation: fadeIn 1.2s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ---------- text ---------- */
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #6f6c66;
+  margin-bottom: 24px;
+}
+
+h1, h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 40px;
+}
+h1 { font-size: 44px; }
+h2 { font-size: 28px; }
+
+.hint {
+  font-size: 12px;
+  color: #6f6c66;
+  min-height: 16px;
+}
+
+/* ---------- the answer + its reflection ---------- */
+
+#answer-area {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; /* stops the iPhone long-press menu */
+  touch-action: none;          /* stops scrolling while holding on a phone */
+  padding: 20px 0;
+}
+
+.answer {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1.35;
+  margin: 0;
+  filter: blur(14px); /* JavaScript lowers this number while holding */
+}
+
+/* upside-down, faded copy under the answer */
+.mirror {
+  transform: scaleY(-1);
+  opacity: 0.12;
+  margin-top: 6px;
+  -webkit-mask-image: linear-gradient(to top, black, transparent 70%);
+  mask-image: linear-gradient(to top, black, transparent 70%);
+}
+
+/* ---------- form + buttons ---------- */
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #4a4843;
+  color: #e9e6df;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 8px 0;
+  resize: none;
+  outline: none;
+}
+textarea:focus { border-bottom-color: #e9e6df; }
+textarea::placeholder { color: #4a4843; }
+
+button {
+  margin: 16px 6px 0;
+  padding: 10px 22px;
+  background: transparent;
+  color: #e9e6df;
+  border: 1px solid #e9e6df;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+button:hover,
+button:focus-visible {
+  background-color: #e9e6df;
+  color: #111111;
+}
+
+/* smaller, quieter button */
+button.quiet {
+  border-color: #4a4843;
+  color: #6f6c66;
+  font-size: 11px;
+}
+
+/* ---------- reflection ---------- */
+
+#stage-reflection {
+  margin-top: 72px;
+}
+
+.reflection-text {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 24px;
+  margin: 48px 0 0;
+}
+
+.closing {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #6f6c66;
+  margin: 56px 0 8px;
+}
+
+/* ---------- phones ---------- */
+
+@media (max-width: 500px) {
+  main { padding-top: 14vh; }
+  h1 { font-size: 34px; }
+  .answer { font-size: 26px; }
+}
