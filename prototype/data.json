@@ -1,0 +1,82 @@
+{
+  "love": {
+    "label": "Love / Relationships",
+    "keywords": ["love", "relationship", "partner", "boyfriend", "girlfriend", "crush", "dating", "marry", "contact", "miss", "breakup", "heart"],
+    "positive": [
+      "A thread you thought was cut is still quietly held at the other end.",
+      "The moon turns its face toward you. What you have been waiting for is closer than it looks.",
+      "Two paths are leaning toward each other. Patience will let them meet."
+    ],
+    "ambiguous": [
+      "The cards show a door half open. Whether it opens wider depends on who reaches first.",
+      "Something is still moving beneath the surface. It has not decided its shape yet.",
+      "The signs are tangled. Love may return, but perhaps not in the form you are picturing."
+    ],
+    "negative": [
+      "The tide is pulling outward for now. Let the shore rest before you walk it again.",
+      "This chapter asks to be closed gently, not reopened.",
+      "The stars are quiet on this question. Silence, too, is a kind of answer."
+    ]
+  },
+  "career": {
+    "label": "Career / Success",
+    "keywords": ["succeed", "success", "job", "work", "career", "interview", "school", "grade", "exam", "project", "money", "promotion", "pass", "fail", "goal", "hired"],
+    "positive": [
+      "The ladder in front of you is sturdier than it feels. Your next step will hold.",
+      "A small effort today becomes a large opening later. The signs favor you.",
+      "What you have planted is already taking root. Expect it to break the surface soon."
+    ],
+    "ambiguous": [
+      "The road bends before it rises. You cannot see the top from here, but that does not mean there is none.",
+      "Success is circling, but it has not landed. It may ask something of you first.",
+      "The omen is split: one hand offers, the other waits."
+    ],
+    "negative": [
+      "This season is for gathering, not harvesting. Give it more time than you hoped.",
+      "The current runs against you for now. Rest, then try again from a different shore.",
+      "The answer is not yet. But not yet is not never."
+    ]
+  },
+  "decision": {
+    "label": "Decisions / Choices",
+    "keywords": ["should", "decide", "decision", "choose", "choice", "leave", "stay", "quit", "change", "risk"],
+    "positive": [
+      "The path you are already leaning toward is lit. Trust the lean.",
+      "The signs say yes, if you can walk forward without looking back too often.",
+      "The scales tip toward courage. Step forward."
+    ],
+    "ambiguous": [
+      "Both paths are open, and both ask for a price. Name what you fear losing.",
+      "The oracle hands the question back to you: which answer would relieve you?",
+      "The fog is thick here. Wait for one more sign before you choose."
+    ],
+    "negative": [
+      "The ground beneath this choice is soft. Not this way, or not yet.",
+      "The signs advise stillness. Acting now may cost more than it gives.",
+      "This door is heavier than it looks. There may be another one beside it."
+    ]
+  },
+  "general": {
+    "label": "General / Future",
+    "positive": [
+      "Something warm is walking toward you. It is already on its way.",
+      "The wheel is turning upward. Keep your eyes open.",
+      "Light gathers behind the clouds. The coming days lean in your favor."
+    ],
+    "ambiguous": [
+      "The future is still being woven. Some threads are yours to choose.",
+      "The sign is neither bright nor dark. It is waiting to see what you bring to it.",
+      "Change is coming. Whether it feels like a gift depends on where you are standing when it arrives."
+    ],
+    "negative": [
+      "A grey stretch lies ahead, but it is a stretch, not a destination.",
+      "The omens advise caution. Hold what you have close for now.",
+      "Not every season is for blooming. This one may ask you to wait."
+    ]
+  },
+  "reflection": {
+    "yes": "Then perhaps you knew what you were hoping for before you asked.",
+    "no": "Notice how it feels to hold an answer you did not want. Would you ask again?",
+    "unsure": "Sometimes we only discover what we hoped for once something else is said out loud."
+  }
+}
