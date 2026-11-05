@@ -16,19 +16,19 @@
       "heart"
     ],
     "positive": [
-      "A thread you thought was cut is still quietly held at the other end.",
-      "The moon turns its face toward you. What you have been waiting for is closer than it looks.",
-      "Two paths are leaning toward each other. Patience will let them meet."
+      "Yes. This is going to work out.",
+      "Someone is thinking about you more than they let on.",
+      "It could turn into something more, if you let it."
     ],
     "ambiguous": [
-      "The cards show a door half open. Whether it opens wider depends on who reaches first.",
-      "Something is still moving beneath the surface. It has not decided its shape yet.",
-      "The signs are tangled. Love may return, but perhaps not in the form you are picturing."
+      "Their feelings haven't settled yet. It could go either way.",
+      "It might happen, just not on the timeline you want.",
+      "An old feeling is coming back. Whether that's good news is hard to say."
     ],
     "negative": [
-      "The tide is pulling outward for now. Let the shore rest before you walk it again.",
-      "This chapter asks to be closed gently, not reopened.",
-      "The stars are quiet on this question. Silence, too, is a kind of answer."
+      "No. This one isn't meant to work out.",
+      "This may already be ending, even if it doesn't feel like it yet.",
+      "They may come back, but not as what you want them to be."
     ]
   },
   "career": {
@@ -52,19 +52,19 @@
       "hired"
     ],
     "positive": [
-      "The ladder in front of you is sturdier than it feels. Your next step will hold.",
-      "A small effort today becomes a large opening later. The signs favor you.",
-      "What you have planted is already taking root. Expect it to break the surface soon."
+      "Yes. You'll get it.",
+      "Good news about work or money is on its way.",
+      "It will pay off, but later than you'd like."
     ],
     "ambiguous": [
-      "The road bends before it rises. You cannot see the top from here, but that does not mean there is none.",
-      "Success is circling, but it has not landed. It may ask something of you first.",
-      "The omen is split: one hand offers, the other waits."
+      "Things will start moving once you take the first step.",
+      "Someone has noticed your work. It's too early to say what they think.",
+      "You're close, but it isn't finished yet."
     ],
     "negative": [
-      "This season is for gathering, not harvesting. Give it more time than you hoped.",
-      "The current runs against you for now. Rest, then try again from a different shore.",
-      "The answer is not yet. But not yet is not never."
+      "No. Not this round.",
+      "Expect a delay before anything changes.",
+      "It won't go as planned, but something else may come out of it."
     ]
   },
   "decision": {
@@ -82,37 +82,37 @@
       "risk"
     ],
     "positive": [
-      "The path you are already leaning toward is lit. Trust the lean.",
-      "The signs say yes, if you can walk forward without looking back too often.",
-      "The scales tip toward courage. Step forward."
+      "Yes. Do it.",
+      "The choice you're leaning toward is the right one.",
+      "It will work out, as long as you don't wait too long."
     ],
     "ambiguous": [
-      "Both paths are open, and both ask for a price. Name what you fear losing.",
-      "The oracle hands the question back to you: which answer would relieve you?",
-      "The fog is thick here. Wait for one more sign before you choose."
+      "Both options will cost you something.",
+      "The answer will be clearer in a few days.",
+      "Someone else's decision may end up making this one for you."
     ],
     "negative": [
-      "The ground beneath this choice is soft. Not this way, or not yet.",
-      "The signs advise stillness. Acting now may cost more than it gives.",
-      "This door is heavier than it looks. There may be another one beside it."
+      "No. Not now.",
+      "This isn't the right moment.",
+      "Something you don't know yet would change your mind."
     ]
   },
   "general": {
     "label": "General / Future",
     "positive": [
-      "Something warm is walking toward you. It is already on its way.",
-      "The wheel is turning upward. Keep your eyes open.",
-      "Light gathers behind the clouds. The coming days lean in your favor."
+      "Yes. It's going to happen.",
+      "Something good is coming.",
+      "Good things are ahead, though not all at once."
     ],
     "ambiguous": [
-      "The future is still being woven. Some threads are yours to choose.",
-      "The sign is neither bright nor dark. It is waiting to see what you bring to it.",
-      "Change is coming. Whether it feels like a gift depends on where you are standing when it arrives."
+      "Part of this isn't up to you.",
+      "It could happen, but not in the way you expect.",
+      "Change is coming. Whether you'll welcome it is another question."
     ],
     "negative": [
-      "A grey stretch lies ahead, but it is a stretch, not a destination.",
-      "The omens advise caution. Hold what you have close for now.",
-      "Not every season is for blooming. This one may ask you to wait."
+      "Not this time.",
+      "This may not turn out the way you pictured it.",
+      "It gets harder before it gets better."
     ]
   },
   "reflection": {
