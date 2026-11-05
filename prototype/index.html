@@ -11,7 +11,6 @@
   <p class="small">White-boxed prototype - Project #5 Digital Divination</p>
   <h1>The Answer People Wanted</h1>
 
-  <!-- STEP 1: ask a question -->
   <div id="ask-section" class="box">
     <h2>1. Ask a question</h2>
     <p>Think of something uncertain in your life. Ask it as a question.</p>
@@ -20,12 +19,10 @@
     <button onclick="askOracle()">Ask the oracle</button>
   </div>
 
-  <!-- STEP 2: the oracle is reading (shown for 1.5 seconds) -->
   <div id="reading-section" class="box hidden">
     <h2>2. The oracle is reading...</h2>
   </div>
 
-  <!-- STEP 3 + 4: the answer and the reflection question -->
   <div id="result-section" class="box hidden">
     <h2>3. Your answer</h2>
     <p id="answer" class="answer"></p>
@@ -41,7 +38,6 @@
     </div>
   </div>
 
-  <!-- WHITE-BOX VIEW: shows what the code decided -->
   <div class="box whitebox">
     <h3>White-box view</h3>
     <p>Detected category: <span id="wb-category">-</span></p>

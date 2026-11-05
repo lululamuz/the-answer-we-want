@@ -14,7 +14,6 @@
 
   <main>
 
-    <!-- STAGE 1: THE QUESTION -->
     <section id="stage-question" class="stage show">
       <p class="label">01 — The Question</p>
       <h1>What do you wish to know?</h1>
@@ -23,15 +22,12 @@
       <button onclick="submitQuestion()">Submit</button>
     </section>
 
-    <!-- STAGE 2 + 3: CLEAR THE REFLECTION / THE ANSWER -->
     <section id="stage-answer" class="stage">
       <p id="answer-label" class="label">02 — The Reflection</p>
       <h2 id="answer-prompt">An answer is here. Are you ready to see it?</h2>
 
-      <!-- the answer starts blurred; press and hold it to clear the blur -->
       <div id="answer-area">
         <p id="answer" class="answer"></p>
-        <!-- a faint mirrored copy of the answer, like a reflection -->
         <p id="mirror" class="answer mirror" aria-hidden="true"></p>
       </div>
 
@@ -39,7 +35,6 @@
       <button id="reveal-button" class="quiet" onclick="startHolding()">Reveal answer</button>
     </section>
 
-    <!-- STAGE 4: THE REAL REFLECTION -->
     <section id="stage-reflection" class="stage">
       <p class="label">04 — The Real Reflection</p>
       <h2>Was this the answer you hoped for?</h2>

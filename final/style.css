@@ -1,6 +1,3 @@
-/* The Answer People Wanted - final version
-   Monochrome, lots of empty space, soft blur. */
-
 body {
   margin: 0;
   min-height: 100vh;
@@ -16,7 +13,6 @@ main {
   text-align: center;
 }
 
-/* small link back to the overview page */
 .corner {
   position: fixed;
   top: 20px;
@@ -29,9 +25,6 @@ main {
 }
 .corner:hover { color: #e9e6df; }
 
-/* ---------- stages ---------- */
-
-/* every stage is hidden until it gets the class "show" */
 .stage {
   display: none;
 }
@@ -43,8 +36,6 @@ main {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-
-/* ---------- text ---------- */
 
 .label {
   font-size: 11px;
@@ -68,14 +59,12 @@ h2 { font-size: 28px; }
   min-height: 16px;
 }
 
-/* ---------- the answer + its reflection ---------- */
-
 #answer-area {
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
-  -webkit-touch-callout: none; /* stops the iPhone long-press menu */
-  touch-action: none;          /* stops scrolling while holding on a phone */
+  -webkit-touch-callout: none;
+  touch-action: none;
   padding: 20px 0;
 }
 
@@ -85,10 +74,9 @@ h2 { font-size: 28px; }
   font-size: 32px;
   line-height: 1.35;
   margin: 0;
-  filter: blur(14px); /* JavaScript lowers this number while holding */
+  filter: blur(14px);
 }
 
-/* upside-down, faded copy under the answer */
 .mirror {
   transform: scaleY(-1);
   opacity: 0.12;
@@ -96,8 +84,6 @@ h2 { font-size: 28px; }
   -webkit-mask-image: linear-gradient(to top, black, transparent 70%);
   mask-image: linear-gradient(to top, black, transparent 70%);
 }
-
-/* ---------- form + buttons ---------- */
 
 textarea {
   width: 100%;
@@ -133,14 +119,11 @@ button:focus-visible {
   color: #111111;
 }
 
-/* smaller, quieter button */
 button.quiet {
   border-color: #4a4843;
   color: #6f6c66;
   font-size: 11px;
 }
-
-/* ---------- reflection ---------- */
 
 #stage-reflection {
   margin-top: 72px;
@@ -158,8 +141,6 @@ button.quiet {
   color: #6f6c66;
   margin: 56px 0 8px;
 }
-
-/* ---------- phones ---------- */
 
 @media (max-width: 500px) {
   main { padding-top: 14vh; }
